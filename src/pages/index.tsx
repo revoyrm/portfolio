@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import { JobHistory } from "@/components/jobHistory";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
         and have experience with typescript, next.js, react-router-dom,
         tailwindCSS,{" "}
       </p>
+      <JobHistory />
     </main>
   );
 }

@@ -1,14 +1,14 @@
 export type ExperienceType = {
   jobs: {
     company: string;
-    startData: string;
+    startDate: string;
     endDate: string;
     responsibilities: string[];
   }[];
   school: {
     name: string;
     degree: string;
-    startData: string;
+    startDate: string;
     endDate: string;
   };
   skills: {
@@ -21,7 +21,7 @@ export const Experience: ExperienceType = {
   jobs: [
     {
       company: "Boost Insurance",
-      startData: "April 2022",
+      startDate: "April 2022",
       endDate: "April 2023",
       responsibilities: [
         "Developed a highly customizable website for partners to easily spin up their own insurance site styled per their branding. Within just a few minutes, partners can spin up their own site that seamlessly interacts with Boost's insurance APIs.",
@@ -33,7 +33,7 @@ export const Experience: ExperienceType = {
     },
     {
       company: "Cerner Corporation",
-      startData: "September 2015",
+      startDate: "September 2015",
       endDate: "April 2022",
       responsibilities: [
         "Developed a customizable web based media viewer project for hospital systems in ReactJS.",
@@ -48,7 +48,7 @@ export const Experience: ExperienceType = {
   school: {
     name: "Western Washington University",
     degree: "B.S. Computer Science",
-    startData: "September 2012",
+    startDate: "September 2012",
     endDate: "June 2015",
   },
   skills: [
