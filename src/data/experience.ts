@@ -4,6 +4,7 @@ export type ExperienceType = {
     startDate: string;
     endDate: string;
     responsibilities: string[];
+    skills: string[];
   }[];
   school: {
     name: string;
@@ -23,6 +24,18 @@ export const Experience: ExperienceType = {
       company: "Boost Insurance",
       startDate: "April 2022",
       endDate: "April 2023",
+      skills: [
+        "ReactJS",
+        "Next.JS",
+        "tailwindCSS",
+        "typeScript",
+        "Cypress",
+        "jest",
+        "react-testing-library",
+        "GraphQL",
+        "typeORM",
+        "NextAuth",
+      ],
       responsibilities: [
         "Developed a highly customizable website for partners to easily spin up their own insurance site styled per their branding. Within just a few minutes, partners can spin up their own site that seamlessly interacts with Boost's insurance APIs.",
         "Developed an Admin site that intuitively led partners through setting up there theme.",
@@ -35,6 +48,17 @@ export const Experience: ExperienceType = {
       company: "Cerner Corporation",
       startDate: "September 2015",
       endDate: "April 2022",
+      skills: [
+        "ReactJS",
+        "WDIO",
+        "jest",
+        "terra-ui",
+        "enzyme",
+        "C++",
+        "C#",
+        "mentoring",
+        "leadership",
+      ],
       responsibilities: [
         "Developed a customizable web based media viewer project for hospital systems in ReactJS.",
         "This media viewer was consumable by many different applications accross Cerner, from other ReactJS projects to c++ applications.",
