@@ -9,7 +9,7 @@ type HeaderLinkProps = {
 export function HeaderLink({ label, route }: HeaderLinkProps): ReactElement {
   return (
     <a
-      className="text-xl hover:text-slate-400 active:text-slate-600 visited:text-slate-100"
+      className="text-xl hover:text-slate-400 active:text-slate-600"
       href={route}
     >
       {label}
