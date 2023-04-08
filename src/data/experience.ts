@@ -1,11 +1,13 @@
+export type Job = {
+  company: string;
+  startDate: string;
+  endDate: string;
+  responsibilities: string[];
+  skills: string[];
+};
+
 export type ExperienceType = {
-  jobs: {
-    company: string;
-    startDate: string;
-    endDate: string;
-    responsibilities: string[];
-    skills: string[];
-  }[];
+  jobs: Job[];
   school: {
     name: string;
     degree: string;
